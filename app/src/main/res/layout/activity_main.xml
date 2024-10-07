@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@android:color/holo_blue_dark">
+
+    <!-- Label for Activity A -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity A"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:gravity="center" />
+
+    <!-- Button to Start Activity B -->
+    <Button
+        android:id="@+id/btnStartB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Activity B"
+        android:textSize="18sp"
+        android:background="@android:color/holo_orange_light"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp" />
+
+    <!-- Button to Start Activity C -->
+    <Button
+        android:id="@+id/btnStartC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Activity C"
+        android:textSize="18sp"
+        android:background="@android:color/holo_orange_light"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp" />
+
+    <!-- Button to Show Dialog -->
+    <Button
+        android:id="@+id/btnDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dialog"
+        android:textSize="18sp"
+        android:background="@android:color/holo_orange_light"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp" />
+
+    <!-- Thread Counter TextView -->
+    <TextView
+        android:id="@+id/txtThreadCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thread Counter: 0000"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp" />
+
+    <!-- onRestart Counter TextView -->
+    <TextView
+        android:id="@+id/txtRestartCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onRestart Counter: 0"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp" />
+
+    <!-- Close App Button -->
+    <Button
+        android:id="@+id/btnCloseApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close App"
+        android:textSize="18sp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

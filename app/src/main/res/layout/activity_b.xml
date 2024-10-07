@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@android:color/holo_blue_dark">
+
+    <!-- Label for Activity B -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:gravity="center" />
+
+    <!-- Descriptive Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity B occupies the complete window real-estate. The Android OS forces Activity A to be Paused. However, the background thread keeps incrementing the counter..."
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:paddingTop="20dp" />
+
+
+    <!-- Finish B Button -->
+    <Button
+        android:id="@+id/btnFinishB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finish B"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
